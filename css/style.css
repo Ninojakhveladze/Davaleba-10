@@ -1,0 +1,238 @@
+/*first section*/
+.bg-section {
+    background-image: url('../images/background.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 900px;
+    width: 100%;
+}
+.flex-header {
+    display: flex;
+    justify-content: space-between;
+    padding: 60px;
+    align-items: center;
+}
+.logo {
+    color: white;
+}
+.logo p {
+    font-size: 28px;
+    font-weight: bold;
+    font-family: 'Dancing Script';
+}
+.ul-navigation {
+    display: flex;
+}
+.li-navigation {
+    margin-right: 27px;
+}
+.a-nav {
+    color: white;
+    font-size: 12px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+    text-transform: uppercase;
+}
+.title p {
+    font-size: 100px;
+    font-family: 'Lato', sans-serif;
+    color: white;
+}
+.text p {
+    font-size: 18px;
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+    line-height: 27px;
+}
+.button p {
+    font-family: 'Lato', sans-serif;
+    font-weight: bold;
+    color: white;
+    font-size: 14px;
+    text-transform: uppercase;
+    padding-left: 48px;
+    padding-top: 30px;
+    letter-spacing: 4.3px;
+}
+.text {
+    padding-top: 46px;
+}
+.button {
+    padding-top: 60px;
+}
+.text-class {
+    width: 559px;
+}
+.button-class {
+    border-radius: 36px;
+    width: 307px;
+    height: 71px;
+    background-color: #325DFF;
+}
+.flex-display {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.title-text-button {
+    margin-top: 170px;
+}
+.txt-img {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+/*second section*/
+.first-block {
+    display: inline-block;
+    width: 50%;
+}
+.second-block {
+    width: 50%;
+    display: inline-block;
+}
+.second-block img {
+    width: 100%;
+    height: 100%;
+}
+.first-text {
+    width: 468px;
+}
+.first-text1 p {
+    font-size: 50px;
+    font-family: 'Lato', sans-serif;
+    line-height: 60px;
+}
+.second-text {
+    width: 457px;
+    padding-top: 32px;
+}
+.second-text2 p {
+    font-size: 16px;
+    font-family: 'Poppins', sans-serif;
+}
+.text-with-button {
+    padding: 18%;
+}
+/*third section*/
+.box-container {
+    width: 100%;
+    height: 1147px;
+    background-color: #FAFAFA;
+    padding: 77px 55px;
+}
+.container {
+    width: 100%;
+    height: 965px;
+    background-color: #FAFAFA;
+}
+.box-container-title {
+    display: flex;
+    justify-content: center;
+}
+.box-container-title p {
+    font-size: 35px;
+    font-family: 'Lato', sans-serif;
+}
+.box-container-descriprion {
+    width: 771px;
+    display: block;
+    margin: 0 auto;
+    margin-top: 32px;
+}
+.box-container-descriprion p {
+    font-size: 16px;
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+}
+/*third section small boxes*/
+.box-wrapper {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-top: 60px;
+}
+.small-box {
+    margin-top: 27px;
+    width: 369px;
+    height: 372px;
+    background-color: white;
+    flex-direction: column;
+}
+.icon {
+    background-color:  #325DFF;
+    border-radius: 50%;
+    width: 88px;
+    height: 88px;
+    margin-bottom: 30px;
+}
+.small-box-title p {
+    font-family: 'Lato', sans-serif;
+    font-size: 18px;
+}
+.small-box-description {
+    margin-top: 25px;
+    width: 251px;
+}
+.small-box-description p {
+    font-family: 'Poppins', sans-serif;
+    font-size: 16;
+    text-align: center;
+} 
+.box-wrapper-container {
+    width: 1170px;
+    margin: 0 auto;
+}
+/*fourth-section*/
+.section-four-bg {
+    background-image: url('../images/secondimage.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 687px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.case-studies-title p {
+    font-size: 35px;
+    font-family: 'Lato', sans-serif;
+    color: white;
+}
+.case-studios-description {
+    margin-top: 17px;
+}
+.description-case {
+    font-size: 16px;
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    margin: 0 auto;
+    width: 771px;
+    display: block;
+    text-align: center;
+}
+/*section-five*/
+.section-five {
+    margin-top: 85px;
+    width: 100%;
+}
+.txt-img-two {
+    width: 100%;
+    display: flex;
+    justify-content: space-between; 
+    margin-top: 96px;
+}
+/*footer*/
+.blue-footer {
+    background-color: #325DFF;
+    height: 140px;
+}
+.blue-footer p {
+    font-size: 20px;
+    font-family: 'Poppins', sans-serif;
+    color: white;
+}
