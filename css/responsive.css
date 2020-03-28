@@ -1,0 +1,22 @@
+@media (max-width: 1243px) {
+    .text-with-button {
+         padding: 7%;
+         margin: 45px 0;
+    }
+}
+@media (max-width: 1025px) {
+     .second-block {
+         height: 70%;
+     }
+     .first-block {
+        height: 70%;
+     }
+     .first-text1 p {
+         font-size: 32px;
+         line-height: 40px;
+     }
+     .second-text2 p {
+         width: 400px;
+     }
+    
+}
