@@ -61,6 +61,7 @@
 }
 .button {
     padding-top: 60px;
+    display: inline-block
 }
 .text-class {
     width: 559px;
@@ -101,7 +102,7 @@
 .first-text {
     width: 468px;
 }
-.first-text1 p {
+.first-text p {
     font-size: 50px;
     font-family: 'Lato', sans-serif;
     line-height: 60px;
@@ -110,7 +111,7 @@
     width: 457px;
     padding-top: 32px;
 }
-.second-text2 p {
+.second-text p {
     font-size: 16px;
     font-family: 'Poppins', sans-serif;
 }
