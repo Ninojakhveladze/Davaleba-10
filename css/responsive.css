@@ -34,7 +34,6 @@
         width: 273px;
     }
 }
-@media (max-width 732px}
 /* 1025px*/
 
 @media (max-width: 1025px) {
@@ -125,5 +124,10 @@
     }
     .first-block {
         margin-top: 20px;
+    }
+}
+@media (max-width: 620px) {
+    .description-case p {
+        width: unset;
     }
 }
