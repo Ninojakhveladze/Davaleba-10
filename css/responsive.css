@@ -17,7 +17,6 @@
 }
 @media (max-width: 1220px) {
     .small-box {
-        width: 270px;
         height: 240px;
     }
     .box-wrapper {
@@ -186,4 +185,39 @@
     .footer-flex {
         display: grid;
         align-items: center;
+    }
+    .box-container-title p {
+        font-size: 27px;
+        text-align: center;
+    }
+    .box-container-descriprion p {
+        font-size: 13px;
+    }
+    .small-box-description p {
+        font-size: 13px;
+    }
+    .first-text p {
+        font-size: 27px;
+    }
+    .first-text {
+        width: 100%;
+    }
+    .second-text {
+        width: 100%;
+    }
+    .second-text p {
+        font-size: 13px;
+    }
+    .title p {
+        font-size: 40px;
+    }
+    .text p {
+        font-size: 14px;
+    }
+    .case-studies-title p {
+        font-size: 27px;
+    }
+    .description-case {
+        font-size: 13px;
+    }
 }
