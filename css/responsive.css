@@ -29,8 +29,12 @@
         justify-content: space-evenly;
     }
 }
-
-
+@media (max-width 1098px) {
+    .small-box {
+        width: 273px;
+    }
+}
+@media (max-width 732px}
 /* 1025px*/
 
 @media (max-width: 1025px) {
