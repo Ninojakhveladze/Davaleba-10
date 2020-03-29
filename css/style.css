@@ -131,6 +131,11 @@
     width: 100%;
     background-color: #FAFAFA;
 }
+.box-container-text {
+    max-width: 1170px;
+    margin: 0 auto;
+    width: 100%;
+}
 .container {
     margin: 89px 0;
     width: 100%;
@@ -167,6 +172,9 @@
     height: 372px;
     background-color: white;
     flex-direction: column;
+}
+.icon-size {
+    font-size: 28px;
 }
 .icon {
     background-color:  #325DFF;
