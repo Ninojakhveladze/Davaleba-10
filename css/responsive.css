@@ -53,13 +53,6 @@
 /* 850px */
 
 @media (max-width: 850px) {
-    .first-text p {
-        text-align: center;
-    }
-    .second-text p {
-        text-align: center;
-        font-size: 14px;
-    }
     .text-with-button {
         padding: 0%;
     }
@@ -98,6 +91,18 @@
 /* 750px */ 
 
 @media (max-width: 750px) {
+    .button {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .first-text p {
+        text-align: center;
+    }
+    .second-text p {
+        text-align: center;
+        font-size: 14px;
+    }
     .bg-section {
         height: 820px;
     }
@@ -168,4 +173,9 @@
     .burger-icon {
         display: block;
     }
+}
+
+/* 450 responsive*/
+@media (max-width: 450px) {
+
 }
