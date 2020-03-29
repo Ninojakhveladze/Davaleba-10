@@ -131,3 +131,11 @@
         width: unset;
     }
 }
+@media (max-width: 560px) {
+    .navigation-responsive {
+        display: none;
+    }
+    .burger-icon {
+        display: block;
+    }
+}

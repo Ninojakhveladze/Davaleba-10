@@ -7,16 +7,22 @@
     height: 900px;
     width: 100%;
 }
+.responsive-header {
+    max-width: 1170px;
+    width: 100%;
+    margin: 0 auto;
+}
 .flex-header {
+    padding-top: 60px;
     display: flex;
     justify-content: space-between;
-    padding: 60px;
     align-items: center;
 }
 .logo {
     color: white;
 }
 .logo p {
+    margin-left: 10px;
     font-size: 28px;
     font-weight: bold;
     font-family: 'Dancing Script';
@@ -26,6 +32,9 @@
 }
 .li-navigation {
     margin-right: 27px;
+}
+.li-navigation:last-child {
+    margin-right: 10px;
 }
 .a-nav {
     color: white;
@@ -241,4 +250,23 @@
     max-width: 1170px;
     margin: 0 auto;
     width: 100%;
+}
+/*
+.google-icon {
+    font-size: 30px;
+    color: red;
+    transition: all 0.3s linear;
+}
+.google-icon:hover {
+    color: green;
+} */
+.responsive-header-bar {
+    display: flex;
+}
+.burger-icon {
+    margin-right: 10px;
+    margin-left: 10px;
+    display: none;
+    font-size: 24px;
+    color: white;
 }
