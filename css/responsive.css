@@ -129,6 +129,9 @@
     .blue-footer {
         height: 75px;
     }
+    .blue-footer p {
+        font-size: 16px;
+    }
     .text-with-button {
         margin: 0 auto;
         max-width: 326px;
@@ -177,5 +180,10 @@
 
 /* 450 responsive*/
 @media (max-width: 450px) {
-
+    .blue-footer p {
+        font-size: 12px;
+    }
+    .footer-flex {
+        display: grid;
+        align-items: center;
 }
